@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <--! specifying action tag means, when we hit the submit it takes us to that page we the get method-->
+    <form action="thanks.html" method="get">
+      <h2>Course Sign Up Page</h2>
+
+
+      <p>Please Note : first name, last name, pwd, and email are required</p>
+      <label for="firstnameId">first name</label>
+      <input id="firstnameId" type="text" name="firstname" value="" required placeholder="first name">
+
+      <label for="lastnameId">last name</label>
+      <input id="lastnameId" type="text" name="lastname" value="" required placeholder="last name"><br><br>
+
+      <label for="emailId">email</label>
+      <input id="emailId" type="email" name="email" value="" required placeholder="email">
+
+      <label for="pwdId">password</label>
+      <input id="pwdId" type="password" name="password" value="" required placeholder="password"><br>
+
+      <p>are you over the age of 18 ?</p>
+
+      <label for="radio18yId">yes</label>
+      <input id="radio18yId" type="radio" name="radio18y" value="yes">
+
+      <label for="radio18yId">no</label>
+      <input id="radio18yId" type="radio" name="radio18y" value="no"><br>
+
+      <p>do you have a credit card or paypal ?</p><br>
+
+
+      <--!select option menu, the tag name stores the user's option in the drop down menu-->
+      <label for="selectpayementId">payement method</label>
+      <select  id=" selectpayementId" name="payement" >
+
+        <option value="creditcard"> credit card</option>
+        <option value="paypal">paypal</option>
+
+      </select>
+
+      <br><br><input type="submit" name="" value="sign up">
+
+    </form>
+
+
+  </body>
+</html>
