@@ -5,26 +5,36 @@
     <title></title>
   </head>
   <body>
-    <--! specifying action tag means, when we hit the submit it takes us to that page we the get method-->
+
+    <!--form avec champs de saisies, l'action c'est la page de destination lorsqu'on clique sur soumettre -->
     <form action="thanks.html" method="get">
       <h2>Course Sign Up Page</h2>
 
 
       <p>Please Note : first name, last name, pwd, and email are required</p>
+
+      <!--label est le text indicatif du champs a remplir avec le tag for pour faire correspondre 
+      le texte du label a l'input par le biais de l'id de l'input. tag for de label = id de l'input-->
       <label for="firstnameId">first name</label>
+      <!--input type texte avec variable de recuperation de la saisie(name) qui est firstname, indication de input(placeholder) qui 
+      est first name et champs de saisie obligatoire(required) -->
       <input id="firstnameId" type="text" name="firstname" value="" required placeholder="first name">
 
       <label for="lastnameId">last name</label>
-      <input id="lastnameId" type="text" name="lastname" value="" required placeholder="last name"><br><br>
+      <input id="lastnameId" type="text" name="lastname" value="" required placeholder="last name"><br><br> <!--br veut dire a la ligne-->
 
+      <!--input type email-->
       <label for="emailId">email</label>
       <input id="emailId" type="email" name="email" value="" required placeholder="email">
 
+      <!--input password-->
       <label for="pwdId">password</label>
       <input id="pwdId" type="password" name="password" value="" required placeholder="password"><br>
 
       <p>are you over the age of 18 ?</p>
 
+      <!--input radio button avec la meme variable de recuperation(name) pour que l'utilisateur
+      ait un seul choix de selection-->
       <label for="radio18yId">yes</label>
       <input id="radio18yId" type="radio" name="radio18y" value="yes">
 
@@ -33,17 +43,18 @@
 
       <p>do you have a credit card or paypal ?</p><br>
 
-
-      <--!select option menu, the tag name stores the user's option in the drop down menu-->
+      <!--menu drop down d'elements a selectionner-->
       <label for="selectpayementId">payement method</label>
       <select  id=" selectpayementId" name="payement" >
 
-        <option value="creditcard"> credit card</option>
+        <option value="creditcard"> credit card</option> <!--option pour ce que l'utilisateur voir et
+        value pour recuperer sa selection-->
         <option value="paypal">paypal</option>
 
       </select>
 
-      <br><br><input type="submit" name="" value="sign up">
+      <br><br><input type="submit" name="" value="sign up"> <!--input type submit pour soumettre la form de l'utilisateur
+      s'il a tout saisi correctement-->
 
     </form>
 

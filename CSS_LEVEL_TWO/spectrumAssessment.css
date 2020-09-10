@@ -1,0 +1,60 @@
+/*style commente' du code html sur le projet spectre des couleurs*/
+
+/*td s'applique a chaque case de la ligne du tableau, ici 
+nous avons une seule line dans le tableau donc pas besoin 
+de id pour identifier cette ligne*/
+td{
+  width: 100px; /*hageur des cases de la ligne du tableau*/
+  height: 200px;/*hauteur des cases de la ligne du tableau*/
+  border: 2px solid white;/*pour chaque case de la ligne,
+  epaisseur de bordue, style de
+  bordue, couleur de bordue*/
+  text-align: center; /*centrer le texte de chaque case de 
+  la ligne*/
+  font-family: 'Lobster Two', cursive; /*style de texte*/
+  font-size: 25px; /*la taille du texte comme dans word*/
+
+
+
+}
+h3{
+  text-align: center;/*centrer le texte h3*/
+  font-family: 'Lobster Two', cursive; /*style du texte*/
+  font-size: 25px;  /*taille du texte*/
+}
+
+.rectangles{ /*on a attribue' la class rectangles a l'ensemble
+  du tableau pour appliquer un style particulier sur 
+  son contenu*/
+  margin: auto; /*centrer l'ensemble du contenu du tableau*/
+
+}
+
+#rectangle1{ /*id de la case 1 de la ligne du tableau*/
+  background:#0D47A1; /*couleur du background*/
+}
+
+#rectangle2{
+  background: #00897B;
+
+}
+
+#rectangle3{
+  background: #1DE9B6;
+  
+}
+
+#rectangle4{
+  background: #F0F4C3;
+}
+
+#rectangle5{
+  background: #FB8C00;
+  
+}
+
+#rectangle6{
+  background: #E65100;
+  
+}
+  

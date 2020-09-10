@@ -1,0 +1,44 @@
+
+/*les styles communs des elements du body de la page*/
+body{
+    background: #263238;
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+/*le border qui a fait appel a la division des elements du body de la page*/
+.mBody{
+    border:40px solid turquoise;
+    border-top: 0px;
+}
+
+
+/*paddings des paragraphes de la page*/
+p{
+    padding-left:20% ;
+    padding-right: 20%;
+    padding-top: 5%;
+
+}
+
+/*taille de font des elements de la forme*/
+.mForm{
+    font-size: 1.5em;
+}
+
+
+/*style du bouton*/
+#buttonSignUp{
+    width: 150px;
+    height: 80px;
+    background: turquoise;
+    color: white;
+    font-family: 'Sansita', sans-serif;
+    border-radius: 20px;
+    font-size: 1em;
+
+}
