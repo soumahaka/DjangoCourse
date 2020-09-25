@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <!--La liaison bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .boxy{
+            background: lightblue;
+            border: 1px solid black;
+        }
+    </style>
+
+<!--Le systeme des grid, la disposition des contenus selon les types d'ecran disponibles-->
+    <div class="container">
+        <!--class qui permet d'appeler une ligne de disposition sur l'ecran-->
+        <!--ce type de disposition qui est dans la class row veut dire, pour un ecran large, moyen ou petit,
+        disposer box1 peut importe box1 sur les 12 petit carres qui forment une seule ligne de l'ecran -->
+        <!--ensuite disposer box2 sur la meme ligne apres box1 et ainsi de suite-->
+
+        <!--pour une nouvelle ligne, on appelle une nouvelle class row
+        Si on veut n elements sur un row, on precise col suivi de la taille de l'ecran avec le  n element voulu, -->
+        <div class="row">
+            
+            <div class="col-lg col-md col boxy">Box 1</div>
+            <div class="col-lg col-md col boxy">Box 2</div>
+            <div class="col-lg col-md col boxy">Box 3</div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

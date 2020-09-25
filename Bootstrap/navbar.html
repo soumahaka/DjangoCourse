@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+  <!--Les CDN necessaires sur le site de bootstrap pour une navbar fonctionnelle avec le code javascript et jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <!--On depose la navbar et on la remplie graduellement, les elements de la classe sont le style de la navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
+
+      <!--Le texte ou image lien important de la navbar qu'on voit en premier-->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!--le boutton a trois tirets qui permet de derouler les elements de la navbar-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!--les elements de cette class sont les elements deroulant de la navbar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <!--premiere texte lien-->
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!--deuxieme texte lien-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <!--troisieme element de lien mais c'est une dropdowm item-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+
+              
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!--premiere division de la dropdown avec ses elements-->
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+
+                <!--deuxieme division de la dropdown avec ses elements-->
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+
+              <!--un autre element de la navbar-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <!--elements form dans la navbar-->
+          <form class="form-inline my-2 my-lg-0">
+            <!--input texte-->
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <!--input boutton-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+      <!--des jumbotron pour contenir des paragraph-->
+      <div class="container">
+        <div class="container">
+            <div class="jumbotron">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, qui quae laborum velit fuga veniam beatae ducimus. Autem cupiditate, impedit, hic facilis consectetur consequatur, soluta numquam adipisci repellendus delectus magnam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum magnam laudantium ab, cumque et reiciendis porro repellendus eveniet, commodi, at pariatur? Voluptatibus dolor alias assumenda, commodi magni beatae fuga.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam assumenda consequatur temporibus animi quo earum, amet dolorum beatae explicabo quam, culpa nam reiciendis quaerat nihil porro ea corporis aperiam!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, alias impedit! Est in minima animi delectus alias, nihil velit harum! Dolorum, ex neque sit aliquid dicta veniam architecto quam atque?</p>
+  
+            </div>
+  
+            <div class="jumbotron">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, qui quae laborum velit fuga veniam beatae ducimus. Autem cupiditate, impedit, hic facilis consectetur consequatur, soluta numquam adipisci repellendus delectus magnam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum magnam laudantium ab, cumque et reiciendis porro repellendus eveniet, commodi, at pariatur? Voluptatibus dolor alias assumenda, commodi magni beatae fuga.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam assumenda consequatur temporibus animi quo earum, amet dolorum beatae explicabo quam, culpa nam reiciendis quaerat nihil porro ea corporis aperiam!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, alias impedit! Est in minima animi delectus alias, nihil velit harum! Dolorum, ex neque sit aliquid dicta veniam architecto quam atque?</p>
+  
+            </div>
+  
+            <div class="jumbotron">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, qui quae laborum velit fuga veniam beatae ducimus. Autem cupiditate, impedit, hic facilis consectetur consequatur, soluta numquam adipisci repellendus delectus magnam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum magnam laudantium ab, cumque et reiciendis porro repellendus eveniet, commodi, at pariatur? Voluptatibus dolor alias assumenda, commodi magni beatae fuga.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam assumenda consequatur temporibus animi quo earum, amet dolorum beatae explicabo quam, culpa nam reiciendis quaerat nihil porro ea corporis aperiam!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, alias impedit! Est in minima animi delectus alias, nihil velit harum! Dolorum, ex neque sit aliquid dicta veniam architecto quam atque?</p>
+  
+            </div>
+  
+            <div class="jumbotron">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, qui quae laborum velit fuga veniam beatae ducimus. Autem cupiditate, impedit, hic facilis consectetur consequatur, soluta numquam adipisci repellendus delectus magnam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum magnam laudantium ab, cumque et reiciendis porro repellendus eveniet, commodi, at pariatur? Voluptatibus dolor alias assumenda, commodi magni beatae fuga.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam assumenda consequatur temporibus animi quo earum, amet dolorum beatae explicabo quam, culpa nam reiciendis quaerat nihil porro ea corporis aperiam!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, alias impedit! Est in minima animi delectus alias, nihil velit harum! Dolorum, ex neque sit aliquid dicta veniam architecto quam atque?</p>
+  
+            </div>
+        </div>
+      
+
+      </div>
+        
+
+    
+</body>
+</html>
